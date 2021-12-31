@@ -1,1 +1,87 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Shizuru&display=swap');
 
+h1 {
+    font-family: 'Licorice', cursive;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Shizuru', cursive;
+    font-size: 3rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    z-index: 1;
+}
+
+/* HEADER */
+.container {
+    position: relative;
+}
+
+.menuobert {
+    display: none;
+}
+
+.obretsesam {
+    display: block;
+}
+
+.header {
+    width: 100vw;
+    height: 40px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+.espaimenu {
+    width: 20vw;
+    height: 40px;
+    background-color: #000;
+
+}
+
+.menu a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* SECCIONS */
+
+.seccio {
+    height: 100vh;
+}
+
+#A {
+    background-color: aqua;
+}
+
+#B {
+    background-color: beige;
+}
+
+
+
+/* CONTINGUT */
+
+.espaititol {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    align-items:center;
+    justify-content:center;
+  }
