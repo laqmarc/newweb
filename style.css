@@ -19,35 +19,50 @@ html {
 
 body {
     margin: 0px;
-    padding: 0px;
-    position: relative;
-    top: 0px;
-    z-index: 1;
-    width: 100vw;
     background-color: #000;
 }
-
-/* HEADER */
-
-
-
-.seccio {
-    height: 100vh;
-}
-
+.container {display: flex;}
 #A {
     background-color: #000;
 }
 
-
+#B {
+  background-color: red;
+}
+#C {
+    background-color: blue;
+}
+#D {
+    background-color: #000;
+}
 
 /* CONTINGUT */
 
-.espaititol {
+#A,
+#B,
+#C,
+#D {
+    width: 50vw;
+    height: 50vh;
+}
+
+.espaititolA,
+.espaititolB {
     display: flex;
-    width: 95vw;
-    height: 100vh;
+    height: 50vh;
     margin: auto;
-    align-items:center;
-    justify-content:center;
-  }
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    text-align: center;
+
+}
+
+
+/* FOOTER */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
