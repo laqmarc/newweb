@@ -1,18 +1,10 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Licorice&family=Shizuru&display=swap');
 
-h1 {
-    font-family: 'Licorice', cursive;
-    font-size: 5rem;
-    color: #fff;
-}
 
-h2 {
-    font-family: 'Shizuru', cursive;
-    font-size: 3rem;
-}
 
 html {
+    font-family: 'Shizuru', cursive;
     scroll-behavior: smooth;
     color: #fff;
 }
@@ -21,31 +13,43 @@ body {
     margin: 0px;
     background-color: #000;
 }
-.container {display: flex;}
+
+.ct50 {
+    display: flex;
+}
+
+
+
+/* CONTINGUT */
+.ct50 {
+    display: flex;
+}
+
+.ct50 #A,
+.ct50 #B,
+.ct50 #C,
+.ct50 #D {
+    width: 50vw;
+    height: 50vh;
+}
+
 #A {
     background-color: #000;
 }
 
 #B {
-  background-color: red;
+    background-color: red;
 }
+
 #C {
     background-color: blue;
 }
+
 #D {
     background-color: #000;
 }
 
-/* CONTINGUT */
-
-#A,
-#B,
-#C,
-#D {
-    width: 50vw;
-    height: 50vh;
-}
-
+.if{width: 25vw;}
 .espaititolA,
 .espaititolB {
     display: flex;
@@ -53,7 +57,6 @@ body {
     margin: auto;
     align-items: center;
     justify-content: center;
-    width: 50vw;
     text-align: center;
 
 }
