@@ -1,12 +1,11 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 
 html {
-    font-family: 'Shizuru', cursive;
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
-    color: #fff;
 }
 
 body {
@@ -21,6 +20,15 @@ body {
 
 
 /* CONTINGUT */
+
+.top {
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    color: #fff;
+    padding: 10px 0px;
+}
+
 .ct50 {
     display: flex;
 }
@@ -49,7 +57,10 @@ body {
     background-color: #000;
 }
 
-.if{width: 25vw;}
+.if {
+    width: 25vw;
+}
+
 .espaititolA,
 .espaititolB {
     display: flex;
@@ -58,9 +69,28 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #fff;
 
 }
 
+.cv {
+    position: fixed;
+    top: 47%;
+    left: 47.5%;
+    width: 50px;
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.cv div {
+    margin: 0px;
+}
+
+.cv div a {
+    text-decoration: none;
+}
 
 /* FOOTER */
 
@@ -69,4 +99,17 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.footer div {
+    color: white;
+    border-top: 1px solid;
+    width: 90%;
+    text-align: center;
+    margin: 5px 5%;
+    padding-top: 5px;
+}
+
+.footer a {
+    color: #fff;
 }
