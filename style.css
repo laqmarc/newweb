@@ -13,11 +13,35 @@ body {
     background-color: #000;
 }
 
+h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.bloc a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+}
+
 .ct50 {
     display: flex;
 }
 
+a.back {
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
 
+.logo {
+    text-decoration: none;
+    color: #fff;
+}
 
 /* CONTINGUT */
 
@@ -27,10 +51,28 @@ body {
     width: 100vw;
     color: #fff;
     padding: 10px 0px;
+    top: 5px;
+    z-index: 2;
 }
 
 .ct50 {
     display: flex;
+}
+
+.ct25 {
+    display: block;
+}
+
+.ct25 .bloc {
+    background-color: #fff;
+    width: 23%;
+    float: left;
+    margin: 1%;
+    min-height: 14vh;
+}
+
+body#web div#main {
+    margin-top: 35px;
 }
 
 .ct50 #A,
@@ -58,7 +100,7 @@ body {
 }
 
 .if {
-    width: 25vw;
+    width: 20vw;
 }
 
 .espaititolA,
@@ -70,6 +112,7 @@ body {
     justify-content: center;
     text-align: center;
     color: #fff;
+    position: relative;
 
 }
 
@@ -112,4 +155,58 @@ body {
 
 .footer a {
     color: #fff;
+}
+
+.titolbloc {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    padding: 0px;
+    margin: -10px 0px -5px 5px;
+}
+
+.descripcciobloc {
+    margin-left: 5px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+iframe.vvvvv {
+    width: 100vw;
+    height: 100vh;
+}
+body#drones {
+    color: #fff;
+}
+body#drones p {
+    color: #fff;
+    margin: 10px;
+}
+
+body#drones a {
+    color: #fff;
+
+}
+
+.under {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 2px 4px;
+    border: 1px solid;
+}
+
+@media (max-width:700px) {
+    .ct25 .bloc {
+        background-color: #fff;
+        margin: 1vw;
+        padding: 1vw;
+        min-width: 46vw;
+        min-height: 20vh;
+    }
+    #ecommerce .ct25 .bloc{min-height: 31vh;}
 }
