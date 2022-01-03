@@ -17,7 +17,10 @@ body {
     display: flex;
 }
 
-
+.logo {
+    text-decoration: none;
+    color: #fff;
+}
 
 /* CONTINGUT */
 
@@ -58,7 +61,7 @@ body {
 }
 
 .if {
-    width: 25vw;
+    width: 20vw;
 }
 
 .espaititolA,
