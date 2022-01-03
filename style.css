@@ -58,7 +58,7 @@ a.back {
 .ct50 {
     display: flex;
 }
-body#web h2, body#web h3{color: #fff;}
+body#ecommerce h2, body#ecommerce h3, body#web h2, body#web h3{color: #fff;}
 .ct25 {
     display: block;
 }
