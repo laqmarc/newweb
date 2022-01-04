@@ -213,10 +213,7 @@ body#drones a {
 
 @media (max-width:700px) {
     .ct25 .bloc {
-        background-color: #fff;
-        margin: 1vw;
-        padding: 1vw;
-        min-width: 46vw;
+        min-width: 44.5vw;
         min-height: 20vh;
     }
 
@@ -229,10 +226,6 @@ body#drones a {
 @media (max-width:500px) {
 
     .ct25 .bloc {
-        background-color: #fff;
-        margin: 1vw;
-        padding: 1vw;
-        min-width: 46vw;
         min-height: 25vh;
     }
 }
