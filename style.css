@@ -58,7 +58,15 @@ a.back {
 .ct50 {
     display: flex;
 }
-body#ecommerce h2, body#ecommerce h3, body#web h2, body#web h3{color: #fff; margin-left: 10px;}
+
+body#ecommerce h2,
+body#ecommerce h3,
+body#web h2,
+body#web h3 {
+    color: #fff;
+    margin-left: 10px;
+}
+
 .ct25 {
     display: block;
 }
@@ -173,13 +181,16 @@ body#web div#main {
     width: 100%;
     padding-bottom: 56.25%;
 }
+
 iframe.vvvvv {
     width: 100vw;
     height: 100vh;
 }
+
 body#drones {
     color: #fff;
 }
+
 body#drones p {
     color: #fff;
     margin: 10px;
@@ -208,5 +219,20 @@ body#drones a {
         min-width: 46vw;
         min-height: 20vh;
     }
-    #ecommerce .ct25 .bloc{min-height: 31vh;}
+
+    #ecommerce .ct25 .bloc {
+        min-height: 31vh;
+    }
+}
+
+
+@media (max-width:500px) {
+
+    .ct25 .bloc {
+        background-color: #fff;
+        margin: 1vw;
+        padding: 1vw;
+        min-width: 46vw;
+        min-height: 25vh;
+    }
 }
