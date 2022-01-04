@@ -51,8 +51,9 @@ a.back {
     width: 100vw;
     color: #fff;
     padding: 10px 0px;
-    top: 5px;
+    top: 0px;
     z-index: 2;
+    background-color: #000;
 }
 
 .ct50 {
