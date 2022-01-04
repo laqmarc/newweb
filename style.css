@@ -88,7 +88,7 @@ body#web div#main {
 }
 
 #B {
-    background-color: red;
+    background-color: darkorchid;
 }
 
 #C {
@@ -100,7 +100,8 @@ body#web div#main {
 }
 
 .if {
-    width: 20vw;
+    width: 50%;
+    height: 50%;
 }
 
 .espaititolA,
