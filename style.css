@@ -228,6 +228,7 @@ body#drones a {
 
     .ct25 .bloc {
         min-height: 25vh;
-        min-width: 48vw;
+        min-width: 48vw; 
+        
     }
 }
