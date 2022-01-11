@@ -112,8 +112,7 @@ body#web div#main {
     width: 20vw;
 }
 
-.espaititolA,
-.espaititolB {
+.espaititolA, .espaititolB {
     display: flex;
     height: 50vh;
     margin: auto;
@@ -122,7 +121,8 @@ body#web div#main {
     text-align: center;
     color: #fff;
     position: relative;
-
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .cv {
@@ -210,6 +210,40 @@ body#drones a {
     color: #fff;
     padding: 2px 4px;
     border: 1px solid;
+}
+
+.typewriter {
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+ 	animation: typing 3s steps(30, end), blink .5s step-end infinite;
+    white-space: nowrap;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: white; 
+    }
+    100% { 
+        border-color: none; 
+    }
 }
 
 @media (max-width:700px) {
