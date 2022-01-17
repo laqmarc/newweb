@@ -20,6 +20,12 @@ h1 {
     padding-top: 20px;
 }
 
+p {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.descripcciobloc p{color: #000;margin: 0px;}
 .bloc a {
     text-decoration: none;
     color: #000;
@@ -228,7 +234,7 @@ body#drones a {
 
     .ct25 .bloc {
         min-height: 25vh;
-        min-width: 48vw; 
-        
+        min-width: 48vw;
+
     }
 }
