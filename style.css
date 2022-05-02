@@ -25,7 +25,11 @@ p {
     margin-left: 10px;
 }
 
-.descripcciobloc p{color: #000;margin: 0px;}
+.descripcciobloc p {
+    color: #000;
+    margin: 0px;
+}
+
 .bloc a {
     text-decoration: none;
     color: #000;
@@ -118,7 +122,8 @@ body#web div#main {
     width: 20vw;
 }
 
-.espaititolA, .espaititolB {
+.espaititolA,
+.espaititolB {
     display: flex;
     height: 50vh;
     margin: auto;
@@ -219,36 +224,41 @@ body#drones a {
 }
 
 .typewriter {
-	display: inline-block;
+    display: inline-block;
 }
 
 .typewriter-text {
     display: inline-block;
-  	overflow: hidden;
- 	animation: typing 3s steps(30, end), blink .5s step-end infinite;
+    overflow: hidden;
+    animation: typing 3s steps(30, end), blink .5s step-end infinite;
     white-space: nowrap;
     border-right: 4px solid orange;
     box-sizing: border-box;
 }
 
 @keyframes typing {
-    from { 
-        width: 0% 
+    from {
+        width: 0%
     }
-    to { 
-        width: 100% 
+
+    to {
+        width: 100%
     }
 }
 
 @keyframes blink {
-    from, to { 
-        border-color: transparent 
+
+    from,
+    to {
+        border-color: transparent
     }
-    50% { 
-        border-color: white; 
+
+    50% {
+        border-color: white;
     }
-    100% { 
-        border-color: none; 
+
+    100% {
+        border-color: none;
     }
 }
 
