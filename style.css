@@ -38,6 +38,11 @@ a.back {
     text-decoration: none;
 }
 
+span.fixe {
+    position: absolute;
+    right: 0;
+}
+
 .logo {
     text-decoration: none;
     color: #fff;
